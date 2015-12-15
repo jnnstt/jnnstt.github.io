@@ -1,0 +1,11 @@
+.box1 {
+ background-color: aquamarine;
+    height:200px;
+    color: blueviolet;
+}
+
+.box2 {
+ background: blueviolet;
+    color: aquamarine;
+    height:200px;
+}
