@@ -1,11 +1,79 @@
-.box1 {
- background-color: aquamarine;
-    height:200px;
-    color: blueviolet;
+button {
+    background-color: transparent;
+    border: 3px solid gray;
 }
 
-.box2 {
- background: blueviolet;
-    color: aquamarine;
-    height:200px;
+div.navbar-header {
+    height: 96px;
+}
+
+.navbar-default {
+    background-color: white;
+    border: 0px;
+}
+
+.navbar-toggle {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 52px;
+    border: 0px;
+}
+
+.navbar-brand > img {
+    margin-top: -5px;
+}
+
+.sidebar {
+    position: fixed;
+    right: 0px;
+    width: 122px;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.sidebar > img {
+    width: 81px;
+    height: 172px;
+}
+
+.glowna {
+    height: 667px;
+    background-color: antiquewhite;
+    position: static;
+}
+
+.calltoaction {
+    border: 3px solid white;
+}
+
+.ma-efekt {
+    transition: all 500ms ease;
+    background: green;
+    height: 20px;
+    width: 45px;
+}
+
+.ma-efekt.powieksz {
+    width: 200px;
+    height: 300px;
+}
+/*to jest przykłąd, ale nie używajcie hover ;)
+.ma-efekt:hover {
+    height: 200px;
+}
+*/
+
+@media (orientation: landscape) {
+    /*poziomo trzymane urządzenie*/
+}
+
+@media (max-width: 800px) {
+    .ukryte-ponizej-800 {
+        display: none;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 800px) {
+    /*poziome i szersze niż 800*/
 }
