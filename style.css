@@ -1,3 +1,7 @@
+.tresc-wiadomosci {
+    height: 191px;
+}
+
 button {
     background-color: transparent;
     border: 3px solid gray;
@@ -45,6 +49,10 @@ div.navbar-header {
 
 .calltoaction {
     border: 3px solid white;
+}
+
+.navbar-nav {
+    text-align: center;
 }
 
 .ma-efekt {
