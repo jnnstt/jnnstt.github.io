@@ -87,6 +87,21 @@ div.navbar-header {
     width: 200px;
     height: 300px;
 }
+
+.loga {
+    text-align: center;
+}
+
+.person {
+    background: white url("images/person.png") no-repeat center;
+    height: 314px;
+}
+
+.person p {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
 /*to jest przykłąd, ale nie używajcie hover ;)
 .ma-efekt:hover {
     height: 200px;
