@@ -42,9 +42,30 @@ div.navbar-header {
 }
 
 .glowna {
-    height: 667px;
-    background-color: antiquewhite;
     position: static;
+    padding: 0;
+    background: antiquewhite url("images/canada-893534.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.img1 {
+    background: white url("images/img1.PNG") no-repeat center;
+    height: 183px;
+}
+
+.img2 {
+    background: white url("images/img2.PNG") no-repeat center;
+    height: 183px;
+}
+
+.img3 {
+    background: white url("images/img3.PNG") no-repeat center;
+    height: 183px;
+}
+
+.img4 {
+    background: white url("images/img4.PNG") no-repeat center;
+    height: 183px;
 }
 
 .calltoaction {
