@@ -70,6 +70,7 @@ div.navbar-header {
 
 .calltoaction {
     border: 3px solid white;
+    text-align: center;
 }
 
 .navbar-nav {
@@ -93,7 +94,7 @@ div.navbar-header {
 }
 
 .person {
-    background: white url("images/person.png") no-repeat center;
+    background: white url("images/person.png") no-repeat left center;
     height: 314px;
 }
 
@@ -101,6 +102,10 @@ div.navbar-header {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 30px;
+}
+
+.oklastrze {
+    list-style-image: url("images/strzalka_mala.png");
 }
 /*to jest przykłąd, ale nie używajcie hover ;)
 .ma-efekt:hover {
@@ -120,4 +125,8 @@ div.navbar-header {
 
 @media (orientation: landscape) and (min-width: 800px) {
     /*poziome i szersze niż 800*/
+}
+
+.strzalka {
+    background: url(images/img_08.png) no-repeat left center;
 }
