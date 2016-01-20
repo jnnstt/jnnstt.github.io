@@ -111,10 +111,10 @@ div.navbar-header {
 .ma-efekt:hover {
     height: 200px;
 }
-*/
+
 
 @media (orientation: landscape) {
-    /*poziomo trzymane urządzenie*/
+    
 }
 
 @media (max-width: 800px) {
@@ -124,9 +124,19 @@ div.navbar-header {
 }
 
 @media (orientation: landscape) and (min-width: 800px) {
-    /*poziome i szersze niż 800*/
+    
 }
+*/
 
 .strzalka {
-    background: url(images/img_08.png) no-repeat left center;
+    background: url("images/img_08.png") no-repeat left center;
+    height: 183px;
+}
+
+.submenu {
+    display: none;
+}
+
+li:hover>.submenu {
+    display: block;
 }
