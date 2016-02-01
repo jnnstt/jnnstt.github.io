@@ -104,8 +104,14 @@ div.navbar-header {
     padding-top: 30px;
 }
 
-.oklastrze {
-    list-style-image: url("images/strzalka_mala.png");
+.oklastrze ul {
+    padding: 0
+}
+
+.oklastrze li {
+    background: url("images/strzalka_mala.png") no-repeat left center;
+    list-style: none;
+    padding: 20px;
 }
 /*to jest przykłąd, ale nie używajcie hover ;)
 .ma-efekt:hover {
@@ -140,3 +146,18 @@ div.navbar-header {
 li:hover>.submenu {
     display: block;
 }
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    font-size: 14pt;
+}
+
+h4 {
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+header {}
