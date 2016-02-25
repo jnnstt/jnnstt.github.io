@@ -10,7 +10,7 @@ button {
     padding: 8px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 2%;
+    margin-top: 10%;
 }
 
 div.navbar-header {
@@ -114,6 +114,8 @@ div.navbar-header {
 .loga {
     text-align: center;
     padding-top: 2%;
+    height: 30px;
+    margin-top: 20%;
 }
 
 .person {
@@ -171,11 +173,11 @@ li {
 
 .submenu {
     display: none;
+    margin-top: 0;
 }
 
 li:hover>.submenu {
     display: block;
-   
 }
 
 body {
@@ -193,7 +195,7 @@ h4 {
     font-weight: 700;
     color: #5d5d5d;
     line-height: 20px;
-   margin-top: 0;
+    margin-top: 0;
 }
 
 header {
@@ -243,6 +245,8 @@ h2 {
     border: 3px solid #dcdcdc;
     padding: 5%;
     padding-left: 3%;
+    font-size: 14pt;
+    color: #dcdcdc;
 }
 
 footer {
@@ -289,17 +293,12 @@ li:hover>.submenu a {
     line-height: 18pt;
     text-transform: lowercase;
 }
-.navbar-brand {
-   
-}
 
-.sidebar img {
-    
-}
+.navbar-brand {}
 
-.sidebar img {
-     
-}
+.sidebar img {}
+
+.sidebar img {}
 
 .logo {
     margin-top: 20%;
