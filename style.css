@@ -11,6 +11,7 @@ button {
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 div.navbar-header {
@@ -211,7 +212,7 @@ h1 {
     color: #00afda;
     font-weight: 700;
     padding-bottom: 4%;
-    padding-top: 10%;
+    margin-top: 4%;
 }
 
 button a {
@@ -313,3 +314,9 @@ li:hover>.submenu a {
     padding-top: 3%;
     padding-bottom: 1%;
 }
+
+.akt {
+    height: 30px;
+}
+
+#aktualnosci {}
